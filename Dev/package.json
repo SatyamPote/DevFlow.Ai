@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "node server.js",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,7 +15,8 @@
     "react-dom": "^19.2.0",
     "react-markdown": "^10.1.0",
     "firebase": "^12.5.0",
-    "jszip": "^3.10.1"
+    "jszip": "^3.10.1",
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
